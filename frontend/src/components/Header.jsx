@@ -3,15 +3,15 @@ import Logo from '../assets/img/Logo.svg'
 export default function Header() {
   return (
     <div>
-      <nav className="bg-white shadow w-full flex md:justify-center justify-between items-center p-3">
+      <nav className="bg-white w-full flex md:justify-center justify-between items-center p-3">
         <div className="px-8 mx-auto max-w-7xl">
-          <div className="flex items-center justify-between h-16">
-            <div className="w-full justify-between flex items-center">
+          <div className="flex items-center justify-between h-16 ">
+            <div className="w-full justify-between flex items-center ">
               <a className="flex-shrink-0" href="/">
                 <img src={Logo} alt="Workflow" />
               </a>
-              <div className="hidden md:block">
-                <div className="flex items-baseline ml-10 space-x-4">
+              <div className="hidden md:block ">
+                <div className="flex items-baseline ml-10 space-x-4 ">
                   <a className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium" href="/#">
                     Home
                   </a>
@@ -30,8 +30,8 @@ export default function Header() {
                 </div>
               </div>
             </div>
-            <div className="block">
-              <div className="flex items-center ml-4 md:ml-6">
+            <div className="block ">
+              <div className="flex items-center ml-4 md:ml-6 ">
               </div>
             </div>
             <div className="flex -mr-2 md:hidden">
