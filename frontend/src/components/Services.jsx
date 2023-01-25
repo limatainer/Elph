@@ -11,6 +11,7 @@ export default function Services() {
           <p className="mt-4 text-gray-500">
             We are dedicated to helping businesses of all sizes and industries succeed in today's digital landscape.
           </p>
+          <p className="mt-4 text-gray-500">Acelere seu negócio com nossos desenvolvedores de alto nível</p>
 
           <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {solucoes.map((feature) => (

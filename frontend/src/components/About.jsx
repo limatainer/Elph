@@ -3,15 +3,16 @@ import valores from '../util/Valores'
 
 export default function About() {
   return (
-    <div className=" py-24 sm:py-32 lg:py-40">
+    <div className="bg-indigo-50 py-24 sm:py-32 lg:py-40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
-          <h2 className="text-lg font-semibold leading-8 text-indigo-600">A better way to go digital</h2>
-          <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to Elph Digital Solutions!</p>
+          <h2 className="text-lg font-semibold leading-8 text-indigo-600">Acelere seus processos</h2>
+          <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Somos a Elph Digital Solutions</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
             We are a cutting-edge digital services provider that specializes in:
             web design, landing pages, HR solutions, and logistics solutions.
           </p>
+
         </div>
 
         <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">

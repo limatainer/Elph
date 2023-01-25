@@ -1,13 +1,19 @@
 import React from 'react'
-import Header from '../components/Header'
-import About from '../components/About'
-import Footer from '../components/Footer'
-import Services from '../components/Services'
+
+import {
+  Header,
+  About,
+  Footer,
+  Services,
+  Clients
+} from '../components'
+
 export default function Home() {
   return (
     <div>
       <Header />
       <About />
+      <Clients />
       <Services />
       <Footer />
     </div>
