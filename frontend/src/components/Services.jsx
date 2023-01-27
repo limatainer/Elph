@@ -1,6 +1,6 @@
 import React from 'react'
 import solucoes from '../util/solucoes'
-import fotos from '../util/fotos'
+import fotos from '../constants/fotos'
 import description from '../util/description'
 
 export default function Services() {
@@ -17,7 +17,7 @@ export default function Services() {
 
           <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {solucoes.map((feature) => (
-              <div key={feature.name} className="border-t border-gray-200 pt-4">
+              <div key={feature.name} className="border-t border-gray-200 pt-4 transform transition duration-500 hover:scale-110">
                 <dt className="text-xl font-medium text-indigo-600">{feature.name}</dt>
                 <dd className="mt-2 text-sm text-gray-600">{feature.description}</dd>
                 <dd className="mt-2 text-sm text-gray-500">{feature.processes}</dd>
@@ -27,9 +27,8 @@ export default function Services() {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           {fotos.map((foto) => (
-            <img key={foto.foto} src={foto} alt="service illustration" className='rounded-lg bg-gray-100' />
+            <img key={foto.foto} src={foto} alt="service illustration" className='rounded-lg bg-gray-100 transform transition duration-500 hover:scale-110' />
           ))}
-
         </div>
       </div>
     </div>

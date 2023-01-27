@@ -1,7 +1,7 @@
 import React from 'react'
-import Marketing from '../assets/img/marketing.svg'
-import WebGirl from '../assets/img/webgirl.svg'
+import MarketingBro from '../assets/img/Marketing-bro.svg'
 import description from '../util/description'
+import { FcComboChart, FcMultipleDevices, FcCollaboration, FcApproval } from "react-icons/fc";
 
 export default function About() {
   return (
@@ -42,14 +42,14 @@ export default function About() {
             </form>
           </div>
           <div className="mt-12 flex gap-6 lg:gap-12 justify-between grayscale">
-            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
+            <FcComboChart className="h-8 sm:h-10 w-auto lg:h-12" />
+            <FcMultipleDevices className="h-8 sm:h-10 w-auto lg:h-12" />
+            <FcCollaboration className="h-8 sm:h-10 w-auto lg:h-12" />
+            <FcApproval className="h-8 sm:h-10 w-auto lg:h-12" />
           </div>
         </div>
         <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16">
-          <img src={WebGirl} alt="project illustration" />
+          <img src={MarketingBro} alt="project illustration" />
         </div>
       </div>
     </div>

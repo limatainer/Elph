@@ -12,12 +12,12 @@ export default function Footer() {
           transform="translate(1.743 66.155)"
         ></path>
       </svg>
-      <div className="bg-gradient-to-b from-indigo-200 to-transparent pt-1">
+      <div className="bg-gradient-to-b from-indigo-200 to-transparent">
         <div className="container m-auto space-y-8 px-6 text-gray-600 md:px-12 lg:px-20">
           <div className="grid grid-cols-8 gap-6 md:gap-0">
             <div className="col-span-8 md:col-span-2 lg:col-span-3">
-              <div className="flex items-center justify-between gap-6  py-6 md:block md:space-y-6 md:border-none md:py-0">
-                <img src={Logo} alt="elph" width="100" height="42" className="w-32 " />
+              <div className="flex items-center justify-between gap-6 md:block md:space-y-6 md:border-none md:py-0">
+                <img src={Logo} alt="elph" width="100" height="42" className="w-auto transform transition duration-500 hover:scale-110 " />
                 {/* Icons left */}
                 {/* <div className="flex gap-6">
                   <a href="#" target="blank" aria-label="github" className="hover:text-cyan-600">
@@ -113,7 +113,9 @@ export default function Footer() {
               <div className="flex justify-between border-t shadow shadow-indigo-100  py-2 pb-4 md:pl-16">
                 <span>&copy; elph 2023</span>
                 <span>Direitos Reservados</span>
+                <a href="https://storyset.com/business">Business illustrations by Storyset</a>
               </div>
+
             </div>
           </div>
         </div>
