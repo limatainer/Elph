@@ -12,15 +12,14 @@ export default function Footer() {
           transform="translate(1.743 66.155)"
         ></path>
       </svg>
-      <div class="bg-gradient-to-b from-indigo-200 to-transparent  pt-1">
+      <div class="bg-gradient-to-b from-indigo-200 to-transparent pt-1">
         <div class="container m-auto space-y-8 px-6 text-gray-600 md:px-12 lg:px-20">
           <div class="grid grid-cols-8 gap-6 md:gap-0">
-            <div class="col-span-8 border-r border-indigo-600  md:col-span-2 lg:col-span-3">
-              <div
-                class="flex items-center justify-between gap-6 border-b border-slate-900  py-6 md:block md:space-y-6 md:border-none md:py-0"
-              >
-                <img src="images/logo.svg" alt="logo tailus" width="100" height="42" class="w-32 " />
-                <div class="flex gap-6">
+            <div class="col-span-8 md:col-span-2 lg:col-span-3">
+              <div class="flex items-center justify-between gap-6  py-6 md:block md:space-y-6 md:border-none md:py-0">
+                <img src={Logo} alt="elph" width="100" height="42" class="w-32 " />
+                {/* Icons left */}
+                {/* <div class="flex gap-6">
                   <a href="#" target="blank" aria-label="github" class="hover:text-cyan-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -63,75 +62,57 @@ export default function Footer() {
                       />
                     </svg>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div class="col-span-8 md:col-span-6 lg:col-span-5">
-              <div class="grid grid-cols-2 gap-6 pb-16 sm:grid-cols-3 md:pl-16">
+            {/* Description right */}
+            <div class="col-span-8 md:col-span-6 lg:col-span-5 m-5">
+              {/* <div class="grid grid-cols-2 gap-6 pb-12 sm:grid-cols-3 md:pl-12">
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Company</h6>
-                  <ul class="mt-4 list-inside space-y-4">
+                  <h6 class="text-lg font-medium text-gray-800 ">Elph</h6>
+                  <ul class="mt-2 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">About</a>
+                      <a href="#" class="transition hover:text-cyan-600">Sobre</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Customers</a>
-                    </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Enterprise</a>
-                    </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Partners</a>
-                    </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Jobs</a>
+                      <a href="#" class="transition hover:text-cyan-600">Clientes</a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Products</h6>
-                  <ul class="mt-4 list-inside space-y-4">
+                  <h6 class="text-lg font-medium text-gray-800 ">Serviços</h6>
+                  <ul class="mt-2 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">About</a>
+                      <a href="#" class="transition hover:text-cyan-600">SEO</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Customers</a>
+                      <a href="#" class="transition hover:text-cyan-600">Social Media</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Enterprise</a>
+                      <a href="#" class="transition hover:text-cyan-600">Websites</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Partners</a>
+                      <a href="#" class="transition hover:text-cyan-600">Personalizado</a>
                     </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Jobs</a>
-                    </li>
+
                   </ul>
                 </div>
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Ressources</h6>
+                  <h6 class="text-lg font-medium text-gray-800 ">Contacto</h6>
                   <ul class="mt-4 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">About</a>
+                      <a href="#" class="transition hover:text-cyan-600">Fale Conosco</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Customers</a>
+                      <a href="#" class="transition hover:text-cyan-600">Orçamentos</a>
                     </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Enterprise</a>
-                    </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Partners</a>
-                    </li>
-                    <li>
-                      <a href="#" class="transition hover:text-cyan-600">Jobs</a>
-                    </li>
+
                   </ul>
                 </div>
-              </div>
-              <div class="flex justify-between border-t border-indigo-600  py-4 pb-8 md:pl-16">
-                <span>&copy; tailus 2003 - <span id="year"></span> </span>
-                <span>All right reserved</span>
+              </div> */}
+              <div class="flex justify-between border-t shadow shadow-indigo-100  py-2 pb-4 md:pl-16">
+                <span>&copy; elph 2023</span>
+                <span>Direitos Reservados</span>
               </div>
             </div>
           </div>

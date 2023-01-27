@@ -1,25 +1,33 @@
-import Explosion from '../assets/img/explosion.png'
+import WebGirl from '../assets/img/webgirl.svg'
+import Dash from '../assets/img/dash.svg'
+import DashCard from '../assets/img/dashcard.svg'
+import Marketing from '../assets/img/marketing.svg'
+import Arrow from '../assets/icons/right-arrow.png'
 
 const valores = [
   {
     valor: "Innovation",
     descricao: "Our creative team will bring to our products the innovations",
-    icon: Explosion
+    image: WebGirl,
+    icon: Arrow
   },
   {
     valor: "Trust",
     descricao: "We are partners so you success is ours too",
-    icon: Explosion
+    image: Dash,
+    icon: Arrow
   },
   {
     valor: "Modern",
     descricao: "We bring our modern world to you rock yours",
-    icon: Explosion
+    image: DashCard,
+    icon: Arrow
   },
   {
     valor: "Colab",
     descricao: "Collaboration and brainstorming",
-    icon: Explosion
+    image: Marketing,
+    icon: Arrow
   },
 ]
 export default valores
