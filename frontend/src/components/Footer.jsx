@@ -3,30 +3,30 @@ import Logo from '../assets/img/Logo.svg'
 export default function Footer() {
   return (
     <footer>
-      <svg xmlns="http://www.w3.org/2000/svg" class="-mb-0.5 w-full" viewBox="0 0 1367.743 181.155">
+      <svg xmlns="http://www.w3.org/2000/svg" className="-mb-0.5 w-full" viewBox="0 0 1367.743 181.155">
         <path
-          class="fill-current text-indigo-200 "
+          className="fill-current text-indigo-200 "
           id="wave"
           data-name="wave"
           d="M0,0S166.91-56.211,405.877-49.5,715.838,14.48,955.869,26.854,1366,0,1366,0V115H0Z"
           transform="translate(1.743 66.155)"
         ></path>
       </svg>
-      <div class="bg-gradient-to-b from-indigo-200 to-transparent pt-1">
-        <div class="container m-auto space-y-8 px-6 text-gray-600 md:px-12 lg:px-20">
-          <div class="grid grid-cols-8 gap-6 md:gap-0">
-            <div class="col-span-8 md:col-span-2 lg:col-span-3">
-              <div class="flex items-center justify-between gap-6  py-6 md:block md:space-y-6 md:border-none md:py-0">
-                <img src={Logo} alt="elph" width="100" height="42" class="w-32 " />
+      <div className="bg-gradient-to-b from-indigo-200 to-transparent pt-1">
+        <div className="container m-auto space-y-8 px-6 text-gray-600 md:px-12 lg:px-20">
+          <div className="grid grid-cols-8 gap-6 md:gap-0">
+            <div className="col-span-8 md:col-span-2 lg:col-span-3">
+              <div className="flex items-center justify-between gap-6  py-6 md:block md:space-y-6 md:border-none md:py-0">
+                <img src={Logo} alt="elph" width="100" height="42" className="w-32 " />
                 {/* Icons left */}
-                {/* <div class="flex gap-6">
-                  <a href="#" target="blank" aria-label="github" class="hover:text-cyan-600">
+                {/* <div className="flex gap-6">
+                  <a href="#" target="blank" aria-label="github" className="hover:text-cyan-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
                       fill="currentColor"
-                      class="bi bi-github"
+                      className="bi bi-github"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -34,13 +34,13 @@ export default function Footer() {
                       />
                     </svg>
                   </a>
-                  <a href="#" target="blank" aria-label="twitter" class="hover:text-cyan-600">
+                  <a href="#" target="blank" aria-label="twitter" className="hover:text-cyan-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
                       fill="currentColor"
-                      class="bi bi-twitter"
+                      className="bi bi-twitter"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -48,13 +48,13 @@ export default function Footer() {
                       />
                     </svg>
                   </a>
-                  <a href="#" target="blank" aria-label="medium" class="hover:text-cyan-600">
+                  <a href="#" target="blank" aria-label="medium" className="hover:text-cyan-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
                       fill="currentColor"
-                      class="bi bi-medium"
+                      className="bi bi-medium"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -66,51 +66,51 @@ export default function Footer() {
               </div>
             </div>
             {/* Description right */}
-            <div class="col-span-8 md:col-span-6 lg:col-span-5 m-5">
-              {/* <div class="grid grid-cols-2 gap-6 pb-12 sm:grid-cols-3 md:pl-12">
+            <div className="col-span-8 md:col-span-6 lg:col-span-5 m-5">
+              {/* <div className="grid grid-cols-2 gap-6 pb-12 sm:grid-cols-3 md:pl-12">
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Elph</h6>
-                  <ul class="mt-2 list-inside space-y-4">
+                  <h6 className="text-lg font-medium text-gray-800 ">Elph</h6>
+                  <ul className="mt-2 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Sobre</a>
+                      <a href="#" className="transition hover:text-cyan-600">Sobre</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Clientes</a>
+                      <a href="#" className="transition hover:text-cyan-600">Clientes</a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Serviços</h6>
-                  <ul class="mt-2 list-inside space-y-4">
+                  <h6 className="text-lg font-medium text-gray-800 ">Serviços</h6>
+                  <ul className="mt-2 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">SEO</a>
+                      <a href="#" className="transition hover:text-cyan-600">SEO</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Social Media</a>
+                      <a href="#" className="transition hover:text-cyan-600">Social Media</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Websites</a>
+                      <a href="#" className="transition hover:text-cyan-600">Websites</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Personalizado</a>
+                      <a href="#" className="transition hover:text-cyan-600">Personalizado</a>
                     </li>
 
                   </ul>
                 </div>
                 <div>
-                  <h6 class="text-lg font-medium text-gray-800 ">Contacto</h6>
-                  <ul class="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg font-medium text-gray-800 ">Contacto</h6>
+                  <ul className="mt-4 list-inside space-y-4">
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Fale Conosco</a>
+                      <a href="#" className="transition hover:text-cyan-600">Fale Conosco</a>
                     </li>
                     <li>
-                      <a href="#" class="transition hover:text-cyan-600">Orçamentos</a>
+                      <a href="#" className="transition hover:text-cyan-600">Orçamentos</a>
                     </li>
 
                   </ul>
                 </div>
               </div> */}
-              <div class="flex justify-between border-t shadow shadow-indigo-100  py-2 pb-4 md:pl-16">
+              <div className="flex justify-between border-t shadow shadow-indigo-100  py-2 pb-4 md:pl-16">
                 <span>&copy; elph 2023</span>
                 <span>Direitos Reservados</span>
               </div>

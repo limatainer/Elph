@@ -2,18 +2,18 @@ import React from 'react'
 
 import {
   Header,
-  About,
+  Presentation,
   Footer,
   Services,
-  Clients
+  About
 } from '../components'
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <Presentation />
       <About />
-      <Clients />
       <Services />
       <Footer />
     </div>

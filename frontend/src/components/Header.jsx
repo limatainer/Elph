@@ -1,5 +1,9 @@
 import React from 'react'
 import Logo from '../assets/img/Logo.svg'
+import { navigation } from '../constants'
+
+
+
 export default function Header() {
   return (
     <div>
@@ -12,7 +16,13 @@ export default function Header() {
               </a>
               <div className="hidden md:block ">
                 <div className="flex items-baseline ml-10 space-x-4 ">
-                  <a className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium" href="/#">
+                  {navigation.map((nav, index) => (
+                    <a key={nav.id} href={`#${nav.id}`} className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium"
+                    >
+                      {nav.title}
+                    </a>
+                  ))}
+                  {/* <a className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium" href="/#">
                     Home
                   </a>
                   <a className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium" href="/#">
@@ -26,7 +36,7 @@ export default function Header() {
                   </a>
                   <a className="text-zinc-900  hover:text-violet-900 px-3 py-2 rounded-md text-sm font-medium" href="/#">
                     Contact
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

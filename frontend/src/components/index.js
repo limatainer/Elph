@@ -1,13 +1,13 @@
 import Header from '../components/Header'
-import About from '../components/About'
+import Presentation from '../components/Presentation'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
-import Clients from '../components/Clients'
+import About from './About'
 
 export {
   Header,
-  About,
+  Presentation,
   Footer,
   Services,
-  Clients
+  About
 }

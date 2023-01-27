@@ -1,49 +1,56 @@
 import React from 'react'
-import valores from '../util/valores'
-import about from '../util/about'
+import Marketing from '../assets/img/marketing.svg'
+import WebGirl from '../assets/img/webgirl.svg'
+import description from '../util/description'
 
 export default function About() {
   return (
-    <div className="bg-indigo-50 py-24 sm:py-32 lg:py-40">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="sm:text-center">
-          {/* About */}
-          <h2 className="text-lg font-semibold leading-8 text-indigo-600">
-            Acelere seus processos</h2>
-          <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Somos a Elph Digital Solutions</p>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            {about.about}
+    <div id='about' className="bg-slate-50 p-20">
+      <div aria-hidden="true" className="absolute inset-0 my-auto w-96 h-32 rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl opacity-50 "></div>
+      <div className="relative lg:flex lg:items-center lg:gap-12">
+        <div className="text-center lg:text-left md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12">
+          <h1 className="text-gray-900 font-bold text-4xl md:text-6xl lg:text-5xl xl:text-6xl ">
+            Não deixe de garantir seu destaque na concorência,
+            <span className="text-indigo-600">
+              transforme sua ideia em digital
+            </span>
+          </h1>
+          <p className='mx-auto mt-6 max-w-2xl text-lg text-justify leading-8 text-gray-600'>
+            {description.services}
           </p>
-          <p className="mx-auto mt-2 max-w-2xl leading-8 text-gray-600">
-            {about.offer}
-          </p>
-        </div>
-
-        {/* Valores */}
-        <div class="relative py-16">
-          <div class="container relative m-auto px-6 text-gray-500 md:px-12">
-            <div class="grid gap-6 md:mx-auto md:w-8/12 lg:w-full lg:grid-cols-4">
-              {valores.map((valor) => (
-                <div key={valor.valor} class="group space-y-6 border border-gray-100 rounded-3xl bg-white  px-8 py-12 text-center shadow-2xl shadow-gray-600/10 ">
-                  <img
-                    class="mx-auto w-24"
-                    src={valor.image}
-                    alt="illustration"
-                    loading="lazy"
-                  />
-                  <h1 class="text-2xl font-semibold text-gray-800 ">{valor.valor}</h1>
-                  <p>{valor.descricao}</p>
-                  <a href="#"
-                    class="relative mx-auto flex h-10 w-10 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-gray-100  before:transition before:duration-300 group-hover:before:scale-125">
-                    <img class="text-primary" src={valor.icon} alt='right-arrow' />
-                  </a>
+          <div>
+            <form action="" className="w-full mt-12">
+              <div className="relative flex items-center px-2 p-1 rounded-full   border  border-primary/10 shadow-md md:p-2 lg:pr-3">
+                <div className="pl-6 py-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 m-auto fill-blue-900/60 " viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
                 </div>
-              ))}
-            </div>
+                <input autoComplete="email" placeholder="Your mail address" className="w-full p-4 rounded-full placeholder-gray-600 bg-transparent" type="email" />
+                <div className="md:pr-1.5 lg:pr-0">
+                  <button type="button" title="Start buying" className="relative h-12 w-20 sm:w-auto ml-auto sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary  before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
+                    <span className="relative hidden w-max text-white  font-semibold md:block">
+                      Get Started
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="relative h-6 w-6 mx-auto text-white  md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div className="mt-12 flex gap-6 lg:gap-12 justify-between grayscale">
+            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
+            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
+            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
+            <img src={Marketing} className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
           </div>
         </div>
-
+        <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16">
+          <img src={WebGirl} alt="project illustration" />
+        </div>
       </div>
     </div>
   )
