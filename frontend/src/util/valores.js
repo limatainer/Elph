@@ -6,26 +6,26 @@ import Arrow from '../assets/icons/right-arrow.png'
 
 const valores = [
   {
-    valor: "Inovação",
-    descricao: "Our creative team will bring to our products the innovations",
+    valor: "Criação de Sites e Logomarcas",
+    descricao: "Com a Elph você terá do website mais moderno, dominio próprio até sua logomarca em destaque",
     image: Light,
     icon: Arrow
   },
   {
-    valor: "Segurança",
-    descricao: "We are partners so you success is ours too",
+    valor: "Confiança",
+    descricao: "Toda a segurança e cuidado com dados pessoais sempre em primeiro lugar",
     image: Encript,
     icon: Arrow
   },
   {
-    valor: "Moderno",
-    descricao: "We bring our modern world to you rock yours",
+    valor: "Social Media",
+    descricao: "Deixe que a Elph tem a melhor estratégia para gerir suas redes sociais e te levar para outro nível",
     image: WebGirl,
     icon: Arrow
   },
   {
     valor: "SEO",
-    descricao: "Collaboration and brainstorming",
+    descricao: "Realizamos toda a consultoria em SEO e processo de gestão de tráfego pago para você",
     image: SEOs,
     icon: Arrow
   },

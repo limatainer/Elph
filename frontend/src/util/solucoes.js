@@ -1,33 +1,33 @@
 const solucoes = [
   {
-    name: 'Digital Marketing',
-    description: 'Social Media',
+    name: 'Marketin Digital',
+    description: 'Gestao de redes sociais',
     processes: "SEO, Geração de Leads, Email Marketing, Estrategia digital e performance"
   },
   {
-    name: 'Ecommerce',
-    description: 'Solid walnut base with rare earth magnets and powder coated steel card cover',
-    processes: "B2B e B2C"
+    name: 'Criação de sites',
+    description: 'Desenvolvemos site modernos e responsivos para desktop e mobile',
+    processes: "Tenha domínio prórpio e impulsione sua marca com a Elph"
   },
   {
-    name: 'Web Development',
-    description: 'Plataformas online para sua loja, portfolio, curriculo, comercio no geral',
-    processes: "UX/Ui, Design, Portfolios, Mostruarios"
+    name: 'Consultoria SEO',
+    description: 'Realizamos consultorias SEO para trabalhar sua marca',
+    processes: "Analisamos e acompanhamos tudo"
   },
   {
-    name: 'Automação de Backoffice',
-    description: 'Hand sanded and finished with natural oil',
-    processes: "RPA"
+    name: 'Fotos e Videos',
+    description: 'Precisa de fotos profissionais? Temos este serviço especial',
+    processes: "Sessão de fotos e gravação de videos mais edição de alta qualidade"
   },
   {
-    name: 'Dashboards a Analise de dados',
-    description: 'PowerBI,Google Data Studio ,Python, R Shiny',
-    processes: "Analise de dados e integrações"
+    name: 'Gestão de Tráfego Pago',
+    description: 'Analisamos e gerimos todo seu tráfego ',
+    processes: "e com nossa equipe de especialista traremos a melhor solução"
   },
   {
-    name: 'Sob consulta...',
-    description: 'Tem um problema?',
-    processes: "Nós podemos apresentar a solução"
+    name: 'Criação de Logomarcas',
+    description: 'Desde a idealização das cores e contextos',
+    processes: "Desenhamos e entregamos logocarmas sob demanda entregando o que há de mais moderno"
   },
 ]
 export default solucoes
