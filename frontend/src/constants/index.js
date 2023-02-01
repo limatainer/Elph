@@ -5,15 +5,15 @@ export const navigation = [
   },
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Clientes",
   },
   {
     id: "services",
-    title: "Services",
+    title: "Serviços",
   },
   {
     id: "portfolio",

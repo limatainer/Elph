@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-  Header,
+  Navbar,
   Presentation,
   Footer,
   Services,
@@ -11,7 +11,7 @@ import {
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Presentation />
       <About />
       <Services />

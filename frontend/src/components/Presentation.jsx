@@ -10,13 +10,14 @@ export default function Presentation() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
           {/* description */}
-          <h2 className="animate__animated animate__rubberBand text-lg font-semibold leading-8 text-indigo-600">
-            Acelere seus processos</h2>
           <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Somos a Elph Digital Solutions</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
             {description.about}
           </p>
+          <h2 className="animate__animated animate__rubberBand text-lg 
+          font-semibold leading-8 text-indigo-600">
+            Acelere seus processos</h2>
           <p className="mx-auto mt-2 max-w-2xl leading-8 text-gray-600">
             {description.offer}
           </p>
@@ -27,7 +28,9 @@ export default function Presentation() {
           <div className="container relative m-auto px-6 text-gray-500 md:px-12">
             <div className="grid gap-6 md:mx-auto md:w-8/12 lg:w-full lg:grid-cols-4">
               {valores.map((valor) => (
-                <div key={valor.valor} className="transform transition duration-500 hover:scale-110 group space-y-6 border border-gray-100 rounded-3xl bg-white  px-8 py-12 text-center shadow-2xl shadow-gray-600/10 ">
+                <div key={valor.valor} className="transform transition duration-500 
+                hover:scale-110 group space-y-6 border border-gray-100 
+                rounded-3xl bg-white  px-8 py-12 text-center shadow-2xl shadow-gray-600/10 ">
                   <img
                     className="animate__animated animate__jello mx-auto w-24"
                     src={valor.image}

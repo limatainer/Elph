@@ -1,11 +1,11 @@
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 import Presentation from '../components/Presentation'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
 import About from './About'
 
 export {
-  Header,
+  Navbar,
   Presentation,
   Footer,
   Services,
