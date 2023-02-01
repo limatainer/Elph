@@ -6,21 +6,21 @@ import 'animate.css';
 
 export default function Presentation() {
   return (
-    <div id='home' className="bg-indigo-50 py-24 sm:py-32 lg:py-40">
+    <div id='home' className="bg-indigo-50  py-24 sm:py-32 lg:py-40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="sm:text-center">
+        <div className="sm:text-center ">
           {/* description */}
-          <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Somos a Elph Digital Solutions</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
             {description.about}
           </p>
-          <h2 className="animate__animated animate__rubberBand text-lg 
-          font-semibold leading-8 text-indigo-600">
-            Acelere seus processos</h2>
           <p className="mx-auto mt-2 max-w-2xl leading-8 text-gray-600">
             {description.offer}
           </p>
+          <h2 className="animate__animated animate__rubberBand text-lg 
+          font-semibold leading-8 text-indigo-600 text-center">
+            Acelere seus processos</h2>
         </div>
 
         {/* Valores */}

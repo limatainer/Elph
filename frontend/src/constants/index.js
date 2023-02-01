@@ -8,8 +8,8 @@ export const navigation = [
     title: "Sobre",
   },
   {
-    id: "clients",
-    title: "Clientes",
+    id: "contato",
+    title: "Contato",
   },
   {
     id: "services",

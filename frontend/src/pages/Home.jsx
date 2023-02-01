@@ -5,7 +5,9 @@ import {
   Presentation,
   Footer,
   Services,
-  About
+  About,
+  Contato,
+  Portfolio
 } from '../components'
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <Presentation />
       <About />
       <Services />
+      <Portfolio />
+      <Contato />
       <Footer />
     </div>
   )

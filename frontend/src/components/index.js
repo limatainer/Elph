@@ -1,13 +1,17 @@
-import Navbar from '../components/Navbar'
-import Presentation from '../components/Presentation'
-import Footer from '../components/Footer'
-import Services from '../components/Services'
+import Navbar from './Navbar'
+import Presentation from './Presentation'
+import Footer from './Footer'
+import Services from './Services'
 import About from './About'
+import Contato from './Contato'
+import Portfolio from './Portfolio'
 
 export {
   Navbar,
   Presentation,
   Footer,
   Services,
-  About
+  About,
+  Contato,
+  Portfolio
 }
